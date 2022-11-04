@@ -136,9 +136,3 @@ python -m pea.align_mutations  --user_region_length 149 --user_region_beg_offset
 python -m pea.be_stats --nonX_mut C --nonX_mut G
 ```
 
-### Output files
-- `{input}.{target_seq}.out.Miseq_summary.txt` : result summary
-- `{input}.{target_seq}.out._window.txt` : window-read counts
-- `{input}.{target_seq}.out._aligned.txt`: based on alignment of target sequence in a comparison range.
-
-
